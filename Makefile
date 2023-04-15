@@ -9,6 +9,8 @@ initialize_git:
 install: 
 	@echo "Installing..."
 	poetry install
+
+activate_precommit:
 	poetry run pre-commit install
 
 # Install the package from the root project directory for easier developing
