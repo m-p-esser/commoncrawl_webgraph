@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "commoncrawl-webgraph"
+version = "0.1.0"
+description = ""
+authors = ["Marc-Philipp Esser <m-esser@mail.de>"]
+readme = "README.md"
+packages = [{include = "commoncrawl_webgraph"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+warc = "^0.2.1"
+polars = "^0.17.2"
+requests = "^2.28.2"
+prefect = "^2.10.4"
+prefect-gcp = "^0.4.0"
+gcsfs = "^2023.4.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
